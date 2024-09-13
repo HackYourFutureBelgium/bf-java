@@ -2,11 +2,11 @@
 
 ## Course Overview
 
-This 10-week course provides a deep dive into Java for backend development. We will cover core Java concepts, object-oriented programming (OOP), data structures, databases, and RESTful APIs using **Spring Boot**. By the end of the course, students will have the skills necessary to build scalable backend systems.
+This 10-week course will introduce students to Java for backend development, with a focus on essential language concepts, database access using JPA, and building RESTful APIs using **Spring Boot**. By the end, students will be able to develop a basic, full-featured backend service.
 
-## Week 1: Introduction to Java & OOP
+## Week 1
 
-### Topics
+### Introduction to Java & OOP
 
 - Java Overview and Setup (JDK, IDE)
 - Basic Syntax (Variables, Data Types, Operators)
@@ -14,188 +14,141 @@ This 10-week course provides a deep dive into Java for backend development. We w
 - Object-Oriented Programming (Classes, Objects, Methods)
 - Encapsulation, Inheritance, Polymorphism, Abstraction
 
-### Resources
+### Week 1 Task
 
-- [Java Documentation](https://docs.oracle.com/en/java/)
-- [OOP Principles](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
-
-### Assignment
-
-Create a simple Java program that demonstrates the use of OOP principles.
+Create a simple Java program demonstrating basic OOP principles.
 
 ---
 
-## Week 2: Java Collections & Data Structures
+## Week 2
 
-### Topics
+### Java Collections & Data Structures
 
 - Arrays and Strings
-- Introduction to Java Collections (List, Set, Map)
-- ArrayList, LinkedList, HashMap, HashSet
-- Iterating Collections (For, For-each, Iterator)
-- Sorting and Searching Algorithms
+- Java Collections (List, Set, Map)
+- Common Implementations (ArrayList, LinkedList, HashMap, HashSet)
+- Iterating over Collections (For, For-each)
 
-### Resources
+### Week 2 Task
 
-- [Java Collections Framework](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html)
-
-### Assignment
-
-Implement a program to manage a student database using collections like `List` and `Map`.
+Write a program to manage a list of students using Java Collections.
 
 ---
 
-## Week 3: Exception Handling & File I/O
+## Week 3
 
-### Topics
+### Exception Handling & File I/O
 
 - Java Exception Handling (try-catch, throw, throws)
 - Custom Exceptions
-- File Handling (Reading/Writing Files)
-- Serialization & Deserialization
+- File Handling Basics (Reading/Writing Files)
+- Intro to Serialization & Deserialization
 
-### Resources
+### Week 3 Task
 
-- [Exception Handling in Java](https://www.geeksforgeeks.org/exception-handling-in-java/)
-- [Java I/O Streams](https://docs.oracle.com/javase/tutorial/essential/io/)
-
-### Assignment
-
-Create a program that reads data from a file, processes it, and writes the output to a new file.
+Create a program that reads from a file and writes processed output to a new file.
 
 ---
 
-## Week 4: Multi-threading & Concurrency
+## Week 4
 
-### Topics
+### Introduction to Databases & JPA
 
-- Introduction to Threads (Thread Class, Runnable Interface)
-- Synchronization
-- Thread Pooling
-- Concurrency Utilities (ExecutorService, Future, CountDownLatch)
-  
-### Resources
+- Basics of Relational Databases
+- Introduction to JPA (Java Persistence API)
+- Database Tables & Entity-Relationship Mapping
+- Setting up a Simple Console App using JPA (Entity Creation, Table Generation)
 
-- [Multithreading in Java](https://www.geeksforgeeks.org/multithreading-in-java/)
-- [Java Concurrency Framework](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
+### Week 4 Task
 
-### Assignment
-
-Develop a multi-threaded application to simulate a bank transaction system.
+Create a basic Java console app that maps entities to a database table using JPA.
 
 ---
 
-## Week 5: Introduction to Databases & JDBC
+## Week 5
 
-### Topics
+### JPA, Entities & CRUD Operations
 
-- Basics of Relational Databases (SQL, Tables, Joins)
-- JDBC Overview
-- Connecting to MySQL/PostgreSQL
-- Executing SQL Queries (SELECT, INSERT, UPDATE, DELETE)
+- Defining Entities (@Entity, @Table, @Id)
+- CRUD Operations with JPA (Create, Read, Update, Delete)
+- Relationships between Entities (One-to-Many, Many-to-One)
 
-### Resources
+### Week 5 Task
 
-- [JDBC Documentation](https://docs.oracle.com/javase/tutorial/jdbc/basics/)
-  
-### Assignment
-
-Build a Java application to connect to a database and perform CRUD operations.
+Expand the console app to implement CRUD operations for managing entities in the database.
 
 ---
 
-## Week 6: Maven & Building Projects
+## Week 6
 
-### Topics
+### Maven Basics & Project Setup
 
-- Introduction to Maven (Project Structure, POM Files)
-- Maven Dependencies
-- Building and Packaging Projects
-- Introduction to Unit Testing with JUnit
+- Introduction to Maven (POM file, Dependencies)
+- Using Maven to Build Projects
+- Basic Project Setup with Maven (Dependencies for JPA, Spring Boot)
 
-### Resources
+### Week 6 Task
 
-- [Maven Tutorial](https://maven.apache.org/guides/getting-started/index.html)
-  
-### Assignment
-
-Create a Java project using Maven and add a dependency for JUnit testing.
+Set up a Maven project with basic dependencies and build it using Maven.
 
 ---
 
-## Week 7: Introduction to Spring Boot & Dependency Injection
+## Week 7
 
-### Topics
+### Introduction to Spring Boot & Dependency Injection
 
 - Introduction to Spring Framework & Spring Boot
-- Spring Boot Annotations (@SpringBootApplication, @Autowired, @Component)
-- Dependency Injection
-- Creating a Spring Boot Application
-  
-### Resources:
+- Spring Boot Annotations (@SpringBootApplication, @Autowired)
+- Understanding Dependency Injection
+- Creating a Basic Spring Boot Application
 
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-  
-### Assignment
+### Week 7 Task
 
-Build a simple Spring Boot application with basic dependency injection.
+Build a basic Spring Boot application with dependency injection.
 
 ---
 
-## Week 8: REST APIs with Spring Boot
+## Week 8
 
-### Topics
+### REST APIs with Spring Boot
 
 - Introduction to RESTful Web Services
-- Spring Boot Controllers (@RestController, @RequestMapping)
-- Handling GET, POST, PUT, DELETE requests
-- Data Validation with @Valid
+- Spring Boot REST Controllers (@RestController, @RequestMapping)
+- Handling HTTP Methods (GET, POST, PUT, DELETE)
+- Validating Requests with @Valid
 
-### Resources
+### Week 8 Task
 
-- [Building REST Services with Spring Boot](https://spring.io/guides/gs/rest-service/)
-  
-### Assignment
-
-Develop a REST API for managing a product inventory system.
+Develop a REST API to manage a simple resource, like a product or student.
 
 ---
 
-## Week 9: Database Integration with JPA & Hibernate
+## Week 9
 
-### Topics
+### Spring Data JPA & Database Integration
 
-- Introduction to JPA and Hibernate
-- Entity Annotations (@Entity, @Table, @Id)
-- Spring Data JPA
-- CRUD Repositories
+- Introduction to Spring Data JPA
+- Connecting Spring Boot with JPA Repositories
 - Query Methods and Custom Queries
+- Database CRUD Operations via REST
 
-### Resources
+### Week 9 Task
 
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-
-### Assignment
-
-Integrate a database into the REST API from Week 8 using JPA and Hibernate.
+Integrate a database with the REST API and perform CRUD operations using Spring Data JPA.
 
 ---
 
-## Week 10: Security, Testing & Deployment
+## Week 10
 
-### Topics
+### Security, Testing & Deployment
+
 - Introduction to Spring Security (Authentication & Authorization)
-- JWT (JSON Web Tokens) for Secure APIs
+- JWT (JSON Web Tokens) for Securing APIs
 - Testing REST APIs (JUnit, MockMvc)
-- Packaging and Deploying Spring Boot Applications (WAR/JAR)
+- Packaging and Deploying Spring Boot Applications
 
-### Resources
+### Week 10 Task
 
-- [Spring Security](https://spring.io/projects/spring-security)
-- [Deploying a Spring Boot App](https://spring.io/guides/gs/spring-boot-docker/)
-
-### Assignment
-
-Secure the API developed in Week 9 with Spring Security and JWT, then deploy it on a cloud service (Heroku/AWS).
+Secure the REST API with Spring Security and JWT, then deploy it to a cloud platform like Heroku or AWS.
 
 ---
