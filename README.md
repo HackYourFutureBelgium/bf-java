@@ -2,7 +2,7 @@
 
 ## Course Overview
 
-This 10-week course will introduce students to Java for backend development, with a focus on essential language concepts, database access using JPA, and building RESTful APIs using **Spring Boot**. By the end, students will be able to develop a basic, full-featured backend service.
+This 12 weeks course will introduce students to Java for backend development, with a focus on essential language concepts, database access using JPA, and building RESTful APIs using **Spring Boot**. By the end, students will be able to develop a basic, full-featured backend service.
 
 ## Week 1
 
@@ -150,5 +150,56 @@ Integrate a database with the REST API and perform CRUD operations using Spring 
 ### Week 10 Task
 
 Secure the REST API with Spring Security and JWT, then deploy it to a cloud platform like Heroku or AWS.
+
+---
+
+For the project in the last two weeks, here's a suggestion that ties together everything the students have learned:
+
+---
+
+## Week 11 & 12: Final Project – Building a RESTful Web Service with User Authentication
+
+### Project Overview
+
+Students will develop a full-featured **Book Management System** that allows users to manage a library of books. The system will include user authentication, CRUD operations for managing books, and interaction with a database using Spring Data JPA. They will also secure the API using **Spring Security** and **JWT**, and deploy the application on a cloud platform (e.g., Heroku or AWS).
+
+### Project Features
+
+1. **User Authentication**:
+   - Implement user registration and login using **Spring Security** and **JWT**.
+   - Secure the API endpoints to ensure only authenticated users can access them.
+
+2. **Book Management API**:
+   - Create CRUD endpoints for managing books (adding, updating, deleting, and fetching book details).
+   - Each book should have attributes like `title`, `author`, `isbn`, `publishedDate`, and `genre`.
+   - Implement **pagination** and **filtering** for book lists.
+
+3. **Database Integration**:
+   - Use **Spring Data JPA** to store user and book data in a database (e.g., PostgreSQL, MySQL).
+   - Establish relationships between users and the books they manage.
+
+4. **Validation**:
+   - Validate request bodies for creating or updating books (e.g., checking required fields, valid ISBN format).
+
+5. **Testing**:
+   - Write unit and integration tests using **JUnit** and **MockMvc** for the API endpoints.
+
+6. **Deployment**:
+   - Package and deploy the application to a cloud platform (e.g., **Heroku** or **AWS**).
+   - Configure environment variables and ensure the application runs in production mode.
+
+### Week 11: Building Core Features
+
+- Set up the Spring Boot project with required dependencies.
+- Implement user registration and login with Spring Security and JWT.
+- Build the book management API with CRUD functionality.
+- Connect the application to a database and use Spring Data JPA to manage entities.
+
+### Week 12: Testing, Security, and Deployment
+
+- Add request validation for book management endpoints.
+- Write unit and integration tests for the API.
+- Implement security using Spring Security and JWT.
+- Deploy the application to a cloud platform and ensure it's accessible online.
 
 ---
